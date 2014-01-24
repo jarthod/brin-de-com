@@ -36,7 +36,7 @@ header {
 }
 
 h1 {
-  background: transparent url('logo.png') center center no-repeat;
+  background: transparent url('images/logo.png') center center no-repeat;
   margin: 0.7em auto;
   width: 850px;
   height: 151px;
@@ -111,21 +111,21 @@ hr {
 }
 
 h3.le-secteur {
-  background: transparent url('le-secteur.png') left top no-repeat;
+  background: transparent url('images/le-secteur.png') left top no-repeat;
   height: 65px;
   margin: 0.7em auto;
   text-indent: -9999px;
 }
 
 h3.l-image {
-  background: transparent url('l-image.png') left top no-repeat;
+  background: transparent url('images/l-image.png') left top no-repeat;
   height: 65px;
   margin: 0.7em auto;
   text-indent: -9999px;
 }
 
 h3.le-support {
-  background: transparent url('le-support.png') left top no-repeat;
+  background: transparent url('images/le-support.png') left top no-repeat;
   height: 65px;
   margin: 0.7em auto;
   text-indent: -9999px;
