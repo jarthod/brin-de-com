@@ -169,3 +169,24 @@ small {
   font-size: 0.8em;
   margin-top: -0.4em;
 }
+
+.portfolio {
+  background-color: #eee;
+  padding: 1em 0;
+  margin-top: 1em;
+}
+
+.portfolio img {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 3px 1px white;
+  margin: 7px;
+}
+
+.portfolio a {
+  border: none;
+}
+
+.portfolio a:hover img {
+  border-color: #a52869;
+  box-shadow: 0 0 3px 1px #ac83a1;
+};
