@@ -1,6 +1,6 @@
 /* green: #9ea836 */
 /* violet: #a52869 */
-/* pink: #ac83a1 */
+/* pink: c */
 
 html {
   margin: 0;
@@ -19,9 +19,16 @@ header {
   background-color: #a52869;
   color: white;
   text-transform: uppercase;
-  font-size: 1.2em;
-  line-height: 2em;
-  text-align: center;
+  font-size: 1.1em;
+  line-height: 3em;
+}
+
+header .city {
+  color: #d55899;
+}
+
+header .phone {
+  float: right;
 }
 
 .wrapper {
@@ -36,7 +43,7 @@ header {
 }
 
 h1 {
-  background: transparent url('images/logo.png') center center no-repeat;
+  background: transparent url('../images/logo.png') center center no-repeat;
   margin: 0.7em auto;
   width: 850px;
   height: 151px;
@@ -111,21 +118,21 @@ hr {
 }
 
 h3.le-secteur {
-  background: transparent url('images/le-secteur.png') left top no-repeat;
+  background: transparent url('../images/le-secteur.png') left top no-repeat;
   height: 65px;
   margin: 0.7em auto;
   text-indent: -9999px;
 }
 
 h3.l-image {
-  background: transparent url('images/l-image.png') left top no-repeat;
+  background: transparent url('../images/l-image.png') left top no-repeat;
   height: 65px;
   margin: 0.7em auto;
   text-indent: -9999px;
 }
 
 h3.le-support {
-  background: transparent url('images/le-support.png') left top no-repeat;
+  background: transparent url('../images/le-support.png') left top no-repeat;
   height: 65px;
   margin: 0.7em auto;
   text-indent: -9999px;
@@ -189,4 +196,29 @@ small {
 .portfolio a:hover img {
   border-color: #a52869;
   box-shadow: 0 0 3px 1px #ac83a1;
-};
+}
+
+footer {
+  background-color: #a52869;
+  color: #d55899;
+  line-height: 4em;
+  text-align: center;
+}
+
+.copy {
+  float: left;
+}
+
+.from {
+  float: right;
+}
+
+footer a {
+  color: #d55899;
+  border-bottom-color: #d55899;
+}
+
+footer a:hover {
+  color: #f578b9;
+  border-bottom-color: #f578b9;
+}
